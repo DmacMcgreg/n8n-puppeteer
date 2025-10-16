@@ -29,7 +29,8 @@ RUN python3 -m venv $VENV_PATH \
       openpyxl \
       python-docx \
       plotly \
-      Pillow
+      Pillow \
+      yt-dlp
 
 # 3) Make the venv the default Python environment
 ENV PATH="$VENV_PATH/bin:$PATH"
